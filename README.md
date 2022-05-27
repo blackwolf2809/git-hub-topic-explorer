@@ -1,7 +1,7 @@
 # git-hub-topic-explorer
 React app using github graphql
 
-# Steps to run and test this github topics' app
+# Steps to run this github topics' app
 
 The “>” means that you have to execute the following command in the terminal.
 
@@ -38,6 +38,26 @@ In the app, you can type the topic then click on the Seach button and you will s
 
 You can also click on a topic in the table to see the topics’ related topics.
 
+# Steps to test this github topics' app
+
+The “>” means that you have to execute the following command in the terminal.
+
+## Steps
+### `1) Test`
+
+Once you’ve downloaded all the dependencies, execute the following command to test the project in your localhost. (> npm test)
+
+## Some future improvements
+### `Code Structuring`
+If the number of components are going to be more than five, it is highly recommended to use a redux-thunk or redux-saga to manage the async processes.
+
+### `Refactoring`
+When you make the decision of using thunk or saga, you will need to modify some structure in the project and some functions as well to let the app work properly.
+
+### `Additional Features`
+We could some pagination feature when the github api’s response has more than 10 related topics.
+Make the app responsive.
+Improve de unit tests using jest.
 
 ## Learn More
 
